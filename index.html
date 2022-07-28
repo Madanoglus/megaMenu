@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLUTO HİRİNG TEST</title>
+    <link type="text/css" rel="stylesheet" href="./style/megaMenü.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="megaMenu.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER START-->    
+       <div class="header">
+           <div class="header-column-first">
+        <!-- LOGO START -->
+        <div class="header-logo">RAGAS</div>
+        <!-- LOGO FINISH -->
+        <!-- KATEGORİES START -->
+        <div class="categories-button" onclick="hideCategories()">
+            <h3 class="mobile-hidden">KATEGORİLER</h3>
+            <i id="icon" class="fa-solid fa-list"></i>
+        </div>
+        <div class="categories-button1" onclick="showCategories()">
+            <h3>KATEGORİLER</h3>
+            <i class="fa-solid fa-list"></i>
+        </div>
+        <div id="header-categories" class="header-categories">
+            <ul class="header-categories-ul">
+            <li id="header-categories-name" class="header-categories-women">KADIN 
+                <ul id="women">
+                    <div>
+                        <li class="baslık">Giyim</li>
+                        <li>Elbise</li>
+                        <li>Tişört</li>
+                        <li>Etek</li>
+                        <li>Gömlek</li>
+                        <li>Kot Pantolon</li>
+                        <li>Tayt</li>
+                        <li>Eşofman Altı</li>
+                        <li>Pantolon</li>
+                    </div>   
+                    <div>
+                        <li class="baslık">Dış Giyim</li>
+                        <li>Trençkot</li>
+                        <li>Kaban</li>
+                        <li>Mont</li>
+                        <li>Şişme Mont</li>
+                        <li>Jean Ceket</li>
+                        <li>Ceket</li>
+                        <li>Abiye</li>
+                        <li>Ayakkabılar</li>
+                    </div> 
+                    <div>
+                        <li class="baslık">Aksesuarlar</li>
+                        <li>Çanta</li>
+                        <li>Parfüm</li>
+                        <li>Kemer</li>
+                        <li>Atkı</li>
+                        <li>Şapka</li>
+                        <li>Takı</li>
+                        <li>Cüzdan</li>
+                        <li>Kozmetik</li>
+                    </div> 
+                </ul>
+            </li>
+            <li id="header-categories-name" class="header-categories-women">ERKEK
+                <ul id="man" class="man">
+                    <div>
+                        <li class="baslık">Giyim</li>
+                        <li>Elbise</li>
+                        <li>Tişört</li>
+                        <li>Etek</li>
+                        <li>Gömlek</li>
+                        <li>Kot Pantolon</li>
+                        <li>Tayt</li>
+                        <li>Eşofman Altı</li>
+                        <li>Pantolon</li>
+                    </div>   
+                    <div>
+                        <li class="baslık">Dış Giyim</li>
+                        <li>Trençkot</li>
+                        <li>Kaban</li>
+                        <li>Mont</li>
+                        <li>Şişme Mont</li>
+                        <li>Jean Ceket</li>
+                        <li>Ceket</li>
+                        <li>Abiye</li>
+                        <li>Ayakkabılar</li>
+                    </div> 
+                    <div>
+                        <li class="baslık">Aksesuarlar</li>
+                        <li>Çanta</li>
+                        <li>Parfüm</li>
+                        <li>Kemer</li>
+                        <li>Atkı</li>
+                        <li>Şapka</li>
+                        <li>Takı</li>
+                        <li>Cüzdan</li>
+                        <li>Kozmetik</li>
+                    </div> 
+                </ul>
+            </li>
+            <li id="header-categories-name" class="header-categories-women">GENÇ KIZ
+                <ul id="young" class="young">
+                    <div>
+                        <li class="baslık">Giyim</li>
+                        <li>Elbise</li>
+                        <li>Tişört</li>
+                        <li>Etek</li>
+                        <li>Gömlek</li>
+                        <li>Kot Pantolon</li>
+                        <li>Tayt</li>
+                        <li>Eşofman Altı</li>
+                        <li>Pantolon</li>
+                    </div>   
+                    <div>
+                        <li class="baslık">Dış Giyim</li>
+                        <li>Trençkot</li>
+                        <li>Kaban</li>
+                        <li>Mont</li>
+                        <li>Şişme Mont</li>
+                        <li>Jean Ceket</li>
+                        <li>Ceket</li>
+                        <li>Abiye</li>
+                        <li>Ayakkabılar</li>
+                    </div> 
+                    <div>
+                        <li class="baslık">Aksesuarlar</li>
+                        <li>Çanta</li>
+                        <li>Parfüm</li>
+                        <li>Kemer</li>
+                        <li>Atkı</li>
+                        <li>Şapka</li>
+                        <li>Takı</li>
+                        <li>Cüzdan</li>
+                        <li>Kozmetik</li>
+                    </div> 
+                </ul>
+            </li>
+            <li id="header-categories-name" class="header-categories-women">ÇOCUK
+                <ul class="child" id="child">
+                    <div>
+                        <li class="baslık">Giyim</li>
+                        <li>Elbise</li>
+                        <li>Tişört</li>
+                        <li>Etek</li>
+                        <li>Gömlek</li>
+                        <li>Kot Pantolon</li>
+                        <li>Tayt</li>
+                        <li>Eşofman Altı</li>
+                        <li>Pantolon</li>
+                    </div>   
+                    <div>
+                        <li class="baslık">Dış Giyim</li>
+                        <li>Trençkot</li>
+                        <li>Kaban</li>
+                        <li>Mont</li>
+                        <li>Şişme Mont</li>
+                        <li>Jean Ceket</li>
+                        <li>Ceket</li>
+                        <li>Abiye</li>
+                        <li>Ayakkabılar</li>
+                    </div>
+                </ul>
+            </li>
+            <li id="header-categories-name" class="header-categories-women">BEBEK
+                <ul class="baby" id="baby">
+                    <div>
+                        <li class="baslık">Giyim</li>
+                        <li>Elbise</li>
+                        <li>Tişört</li>
+                        <li>Etek</li>
+                        <li>Gömlek</li>
+                        <li>Kot Pantolon</li>
+                        <li>Tayt</li>
+                        <li>Eşofman Altı</li>
+                        <li>Pantolon</li>
+                    </div>   
+                    <div>
+                        <li class="baslık">Dış Giyim</li>
+                        <li>Trençkot</li>
+                        <li>Kaban</li>
+                        <li>Mont</li>
+                        <li>Şişme Mont</li>
+                        <li>Jean Ceket</li>
+                        <li>Ceket</li>
+                        <li>Abiye</li>
+                        <li>Ayakkabılar</li>
+                    </div> 
+                </ul>
+            </li>
+            <li id="header-categories-name" class="header-categories-women">AKSESUAR
+                <ul class="accessory" id="one">
+                    <div>
+                        <li class="baslık">Aksesuarlar</li>
+                        <li>Çanta</li>
+                        <li>Parfüm</li>
+                        <li>Kemer</li>
+                        <li>Atkı</li>
+                        <li>Şapka</li>
+                        <li>Takı</li>
+                        <li>Cüzdan</li>
+                        <li>Kozmetik</li>
+                    </div>
+                </ul>                
+            </li>
+        </ul>    
+        </div>
+        <!-- KATEGORİES FINISH -->
+           </div>
+           <div class="header-coloum-second">
+        <!-- MENU START -->
+        <div class="header-menu"><ul>
+            <div>
+                <li id="hovercontrol">
+                    <div  >
+                        <i id="icon" class="fa-solid fa-heart" style="padding-bottom: 2px;">
+                        </i>
+                    </div>
+                    <li>
+                        <a class="mobile-hidden" href="">FAVORİLERİM</a>
+                    </li>
+                </li>
+            </div>
+            <div>
+                <li id="hovercontrol">
+                    <div >
+                        <i id="icon" class="fa-solid fa-user" style="padding-bottom: 2px;"></i>
+                    </div>
+                        <li class="header-menu-account">
+                            <a class="mobile-hidden" href="">ÜYE GİRİŞİ</a>
+                        </li>
+                </li>
+            </div>
+            <div>
+                <li id="hovercontrol">
+                    <div >
+                        <i id="icon" class="fa-solid fa-cart-shopping" style="padding-bottom: 2px;">
+                        </i>
+                    </div>
+                    <li>
+                        <a class="mobile-hidden" href="">SEPETİM</a>
+                    </li>
+                </li>
+            </div>
+        </ul></div>
+        <div class="header-searchbar">
+            <input type="text" name="" id="" >
+            <i id="icon" class="fa-solid fa-magnifying-glass" ></i>
+        </div>      
+           </div> 
+       </div>   
+    <!-- HEADER FINISH -->
+       
+    <!-- SLİDER START -->
+       
+       <div class="swiper mySwiper">
+           <div class="swiper-wrapper">
+               <div class="swiper-slide"><img id="slide1" src="./src/silder1web.jpg"></div>
+               <div class="swiper-slide"><img id="slide2" src="./src/silder2web.jpg"></div>
+               
+               
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    <!-- SLİDER FINISH -->
+        
+    <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
